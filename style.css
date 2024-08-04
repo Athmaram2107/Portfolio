@@ -1,0 +1,257 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  background-color: rgb(205, 104, 128);
+}
+
+.starting {
+  display: flex;
+  justify-content: space-between;
+  height: 75px;
+  background-color: rgb(43 40 115);
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+#data {
+  display: flex;
+  margin: 20px;
+  padding: 5px;
+}
+
+nav li {
+  list-style: none;
+  margin: 8px;
+  color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+}
+
+.profile {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 60px;
+}
+
+.name {
+  font-size: medium;
+  font-weight: bold;
+  font-style: oblique;
+  color: whitesmoke;
+  margin-right: 10px;
+}
+
+img {
+  margin-top: 10px;
+  height: 30px;
+  border-radius: 50%;
+}
+.box {
+  background-color: rgb(189, 96, 118);
+  height: 240vh;
+}
+.box1 {
+  display: flex;
+  justify-content: space-around;
+  color: #182c43;
+  opacity: 1.5;
+}
+
+.box1 > div {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.box1 #profile {
+  height: 30vh;
+  margin-top: 80px;
+}
+.box1 #element {
+  color: #dabb3c;
+}
+
+.box1 .academics {
+  display: flex;
+  justify-content: left;
+  margin-top: 10vh;
+}
+
+.academics #Gradecard {
+  margin-left: 5vh;
+}
+
+.academics li {
+  list-style: none;
+}
+
+button {
+  border-radius: 5px;
+  border-color: #5e263b;
+  border-width: 1px;
+  box-shadow: 0 8px 8px rgb(195, 81, 165, 0.2);
+
+  padding: 9px;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+}
+
+.horizontal1 {
+  width: 180vh;
+  margin: 150px 90px 20px;
+  opacity: 0.3;
+}
+
+.horizontal2 {
+  width: 180vh;
+  margin: 2px 90px 4px 90px;
+  opacity: 0.3;
+}
+
+.edu,
+.exp {
+  margin-left: 20vh;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  margin-bottom: 80px;
+  list-style: none;
+  color: whitesmoke;
+}
+.qualifications {
+  display: flex;
+  justify-content: center;
+
+  margin: 15px 20vh;
+}
+
+.qualifications h1 {
+  width: 80%;
+  color: whitesmoke;
+  padding: 5px 40px;
+}
+
+.qualifications h3,
+a {
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.btech {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px;
+  width: 70vh;
+  background-color: lightcoral;
+}
+
+.inter {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px;
+  width: 70vh;
+  background-color: lightcoral;
+}
+
+.tenth {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: 20px;
+  width: 70vh;
+  background-color: lightcoral;
+}
+
+#Frontend {
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: oblique;
+}
+
+div #h {
+  width: 2px;
+  height: 40px;
+  background-color: rgb(225, 193, 200);
+  margin: auto;
+  align-items: center;
+}
+
+#l {
+  width: 180vh;
+  height: 2px;
+  margin: 0px 90px;
+  background-color: rgb(225, 193, 200);
+  display: flex;
+  justify-content: space-between;
+}
+
+.l1 {
+  width: 2px;
+  height: 40px;
+  background-color: rgb(225, 193, 200);
+  margin: 0 0px;
+}
+
+.concepts {
+  width: 40vh;
+  margin-top: 3vw;
+  margin-left: -5vw;
+  font-size: 1.5vw;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  color: #d4c1ce;
+}
+
+.Projects li {
+  list-style: none;
+  width: 50vw;
+  margin: 1vw -4vw 1vw -4vw;
+  font-weight: 600;
+  font-family: sans-serif;
+  font-style: italic;
+  color: antiquewhite;
+}
+
+footer {
+  background-color: #001f3f;
+  margin-top: 40vh;
+  height: 50vh;
+  color: #d4c1ce;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #d4c1ce;
+}
+
+footer img {
+  margin: 60px 8px;
+}
+
+footer img:hover {
+  background-color: #d352d5;
+  box-shadow: 0 4px 8px rgba(162, 69, 99, 0.3);
+}
+
+.contact {
+  margin-top: -6vh;
+}
+.contact a {
+  margin-right: 2vh;
+}
